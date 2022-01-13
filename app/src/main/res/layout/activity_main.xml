@@ -42,6 +42,7 @@
         app:layout_constraintVertical_bias="0.071" />
 
     <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/Input1"
         android:layout_width="256dp"
         android:layout_height="58dp"
         android:hint="hint"
@@ -53,19 +54,27 @@
         app:layout_constraintVertical_bias="0.351" />
 
     <Button
-        android:id="@+id/button3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Button"
-        tools:layout_editor_absoluteX="158dp"
-        tools:layout_editor_absoluteY="566dp" />
+        android:id="@+id/button4"
+        android:layout_width="62dp"
+        android:layout_height="53dp"
+        android:text="L"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.801"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn2"
+        app:layout_constraintVertical_bias="0.204" />
 
     <Button
-        android:id="@+id/button4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Button"
-        tools:layout_editor_absoluteX="269dp"
-        tools:layout_editor_absoluteY="566dp" />
+        android:id="@+id/button5"
+        android:layout_width="62dp"
+        android:layout_height="53dp"
+        android:text="P"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.979"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn2"
+        app:layout_constraintVertical_bias="0.204" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
